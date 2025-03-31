@@ -1,5 +1,5 @@
 # Pull official base image
-FROM python:3.11
+FROM python:3.14-rc-slim-bookworm
 
 # Set environment variables
 ARG ENV=local
